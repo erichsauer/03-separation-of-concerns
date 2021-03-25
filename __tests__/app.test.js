@@ -7,7 +7,7 @@ const Order = require('../lib/models/Order');
 jest.mock('../lib/utils/twilio.js');
 const twilio = require('../lib/utils/twilio');
 
-describe('03_separation-of-concerns-demo routes', () => {
+describe('endpoints', () => {
   beforeEach(() => {
     return setup(pool);
   });
